@@ -8,7 +8,7 @@ public class Main {
         int candidatos;
 
         System.out.println("Sistema de votacion");
-        System.out.println("Ingresa numero de candidatos");
+        System.out.println("Ingresa numero de candidatos: ");
 
         candidatos = sc.nextInt();
         Urna urna = new Urna(candidatos);
