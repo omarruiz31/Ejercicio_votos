@@ -30,7 +30,7 @@ public class Urna {
         }
         for (int i = 0; i < candidatos.length; i++) {
             double porcentaje = candidatos[i] * 100.0 / totalVotos;
-            System.out.printf("Candidato numero %d tiene %f %% de votos \n",(i + 1),porcentaje);
+            System.out.printf("Candidato numero %d tiene %.2f %% de votos \n",(i + 1),porcentaje);
         }
     }
 
